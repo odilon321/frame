@@ -1,0 +1,48 @@
+head{
+     margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+.marquee{
+	 white-space: nowrap;
+	 overflow: hidden;
+	 position: absolute;
+	 width: 100%;
+}
+.defilant{
+	 display: inline-block;
+	 position: relative;
+	 animation: defilement 12s linear infinite;
+	 font-size: 2em;
+}
+@keyframes defilement{
+ 	 0%{
+	     left: 100%;
+	 }
+	 100%{
+	     left: -100%;
+	 }
+}
+h1{font-family: ’Trebuchet MS’, times, verdana;
+	 font-style: italic; 
+     font-weight: bold;
+	 font-size: 120%; 
+     line-height: 140%; 
+	 text-decoration: underline;
+	 color: aqua;
+}
+h2{
+	 text-decoration: overline;
+	 color: fuchsia;
+}
+h3{
+	 text-align: center;
+	 text-transform: capitalize;
+	 border: 4px solid teal;
+	 border radius: 10px;
+	 background-color: bisque;
+	 color: red;
+}
+h4{
+	 color: lime;
+}	 

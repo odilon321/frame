@@ -1,0 +1,16 @@
+@keyframes clignotement{
+     0%{color: red;}
+	 20%{color: orange;}
+	 40%{color: yellow;}
+	 60%{color: green;}
+	 80%{color: blue;}
+	 100%{color: violet;}
+}
+.clignotant{
+	 animation: clignotement 1s infinite;
+}
+h1{
+	 background-color: black;
+	 text-align: center;
+	 font-family: Arial, sans-serif;
+}
